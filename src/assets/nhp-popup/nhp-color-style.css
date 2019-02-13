@@ -1,0 +1,68 @@
+#bigBox {
+    width: 525px;
+    height: 215px;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+}
+
+.tab-content #AddEditMenu textarea{
+	width: 523px;
+}
+
+.colorPickBox {
+    display: inline-block;
+    padding: 5px;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0px 5px;
+    border-radius: 3px;
+}
+
+#multiBoxes {
+    left: 3px;
+    position: relative;
+}
+
+.box_bit_angle{
+    background-color: rgba(29,33,41,.25);
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 1px #ffffff, 0 0 4px 0 rgba(0, 0, 0, .15);
+    height: 22px;
+    margin: 4px;
+    position: relative;
+    width: 22px;
+    display: inline-block;
+	bottom:-2px;
+}
+
+i.fa-angle-left{
+	color: #fff;
+    position: relative;
+    left: 8px;
+    top: 1px;
+}
+
+i.fa-angle-right{
+	color: #fff;
+    position: relative;
+    left: 8px;
+    top: 1px;
+}
+
+#textbox textarea::placeholder{
+	
+}
+
+.textarea::placeholder{
+	color: rgb(255, 255, 255);
+	opacity: .8;
+}
+
+
+.all_color_box{
+    display: inline-block;
+    top: 6px;
+    position: relative;
+}

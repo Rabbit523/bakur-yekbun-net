@@ -1,0 +1,310 @@
+
+@media (max-width: 1200px){
+	.list-inline>li{
+		padding-left:0;
+		padding-right: 0;
+	}
+	nav>ul>li>a, .post-tabs li{
+		font-size: 11px;
+		padding: 9px 8px;
+	}
+	ul.notifaction{
+		margin-left:0;
+		padding-left:0;
+	}
+	
+	.item h3{
+		font-size:13px;
+		padding-top:0;
+	}
+	.post-tabs{
+		text-align:right;
+	}
+	.item {
+		padding:16px;
+	}
+	.user-comment{
+		left:85%;
+	}
+	.song .user-stat {
+		top: 32%!important;
+		left: 20px!important;
+	}
+	.comment-box .comment-head i {
+		margin-left: 7px;
+	}
+	.nav-tabs.nav-justified {
+		padding-top: 0;
+	}
+	.newpostfooter-chat.newpostfooter.nav > li > a {
+		padding: 0 4px;
+	}
+	.panel-footer-say .input-group {
+		padding: 0px 20px;
+		margin-top: 0;
+	}
+	.ima {
+		width: 34px;
+		height: 34px;
+		margin-right: 11px;
+	}
+	.ne h5 {
+		width: calc(100% - 50px);
+	}
+	.ne {
+		padding-bottom: 20px;
+	}
+	.reactions-box-cstm span
+	{
+		font-size:13px;
+	}
+	.reactions-box .em, .reactions-box-cstm .em {
+		height: 16px;
+		width: 16px;
+	}
+	.comments-list .comment-avatar2{
+		height: 36px;
+		width: 36px;
+	}
+	.posts .row{
+		margin:0;
+	}
+	.player2 .description .title2, html .player2 .description .title2 {
+		font-size: 14px;
+	}
+	.like-btn {
+		padding: 6px 0 0 0;
+	}
+	.wrap, .player2, .player2{
+		width:90%;
+	}
+	.pen-input{
+		padding:0;
+	}
+	
+	.content {
+		margin: 108px auto 15px auto;
+	}
+  
+   .nav ol, ul {
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+.btn1{
+	padding: 7px 25px;
+    margin-top: 0;
+}
+.item .dropdown {
+    position:relative !important;
+	}
+
+}
+@media (max-width: 992px){
+	.mobileMnu{
+		display: inline-block;
+		float: right;
+		margin:10px auto;
+	}
+
+	nav{
+		display:none;
+		position: relative;
+		/*top: 50px;*/
+		/*left: -85px;*/
+		width: 100%;
+	}
+	nav.open{
+		display:block;
+	}
+	nav ul,nav ul li,nav ul li a{
+		float:left;
+		width: auto;
+		box-sizing: border-box;
+	}
+
+	ul.notifaction {
+		display: none;
+	}
+
+	ul.notification-responsive {
+		display: block;
+	}
+
+	.profile {
+		float: right;
+		position: relative;
+		top: 5px;
+		z-index: 1;
+	}
+
+	.dropdown-menu {
+		left: -70px;
+	}
+
+	.profile h5 span {
+		display: none;
+	}
+
+	.search-bar {
+		position: relative;
+		margin-top: 10px;
+		top: 5px;
+		left: 110px;
+		z-index: 1;
+		width: calc(100% - 50px);
+	}
+
+	span.profile-notification {
+		display: block;
+	}
+
+	.dropdown-menu>li {
+		position: relative;
+	}
+
+	.notification-responsive {
+		display: block;
+	}
+
+	.dropdown-menu>li>span {
+		position: absolute;
+		padding: 1px 4px;
+		background: red;
+		border-radius: 100%;
+		color: #FFF;
+		font-size: 9px;
+		left: 50px;
+		top: -6px;
+	}
+	.logo {
+		text-align: center;
+	}
+	.items-new-songs .song a img {
+		width: 8%;
+		margin: 0 10px 0 0;
+	}
+	.song .user-stat {
+    top: 44% !important;
+    left: 30px !important;
+}
+	.dropdown-menu>li>a {
+		line-height: 1.428571;
+	}
+
+	.dropdown-menu>li>a>i {
+		color: gray;
+		font-size: 20px;
+	}
+
+	nav>ul>li>a{
+		font-size: 14px;
+		text-align:left;
+	}
+	
+	.content {
+		margin: 130px auto 15px auto;
+	}
+	.chat{
+		display:inline-block;
+	}
+	.ne {
+		margin-top: 00px;
+	}
+	.maincontentscroll{
+		height: 30vh;
+	}
+}
+@media (max-width: 767px){
+	ul.notifaction{
+		margin-left: 0;
+	}
+	.profile{
+		margin: 13px 0 13px 20%;
+		top: 18px;
+	}
+	ul.notifaction  li{
+		margin-left: 20px;
+	}
+
+	.search-bar {
+		top: 5px;
+		width: calc(100% - 50px);
+	}
+
+	#menubar {
+		margin-top: -40px;
+	}
+	footer .help {
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin: 0 0px 0 0px;
+	}
+	.btn_funny{
+		padding: 1px 11px;
+		margin-right: 9px;
+		margin-top: -31px;
+	}
+	footer .col-xs-6{
+		width:100%;
+		text-align:center!important;
+	}
+	footer p {
+		margin: 10px 0 0 0;
+	}
+	.items-new-songs .song a img {
+		width: 20%;
+	}
+	.mobileMnu {
+		margin: 0px 20px 10px;
+	}
+	.nav-tabs.nav-justified > li {
+		display: inline-block;
+		
+	}
+	.nav-tabs.nav-justified > li > a{
+		font-size:13px;
+	}
+	.reaction {
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.reactions-box .em, .reactions-box-cstm .em {
+		height: 12px;
+		width: 12px;
+	}
+	.panel-footer-say {
+		padding: 6px 0;
+	}
+	.newpostfooter li a i, .newpostfooter li a span{
+		font-size:13px !important;
+	}
+	.nav-tabs.nav-justified {
+		padding-top: 6px;
+	}
+	.comment-avatar2{
+		width:30px!important;
+		height:30px!important;
+	}
+	.panel-footer-say #btn-input {
+		margin-top: 0px;
+	}
+}
+
+@media (max-width: 550px) {
+
+	.search-bar {
+		left: 30px;
+	}
+	.commentActions .row{
+		margin:0;
+	}
+	.container-fluid {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.song .user-stat {
+    top: 29% !important;
+    left: 42px !important;
+}
+}

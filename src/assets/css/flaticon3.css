@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/flaticon3/Flaticon.eot");
+  src: url("../fonts/flaticon3/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/flaticon3/Flaticon.woff") format("woff"),
+       url("../fonts/flaticon3/Flaticon.ttf") format("truetype");
+      
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+ 
+font-style: normal;
+}
+
+.flaticon-medical-1:before { content: "\f100"; }
+.flaticon-playlist-1:before { content: "\f101"; }
+.flaticon-information:before { content: "\f102"; }
+.flaticon-support:before { content: "\f103"; }
+.flaticon-notification:before { content: "\f104"; }
+.flaticon-study:before { content: "\f105"; }
+.flaticon-playlist:before { content: "\f106"; }
+.flaticon-shapes:before { content: "\f107"; }
+.flaticon-rubbish:before { content: "\f108"; }
+.flaticon-elections-1:before { content: "\f109"; }
+.flaticon-elections:before { content: "\f10a"; }
+.flaticon-victory:before { content: "\f10b"; }
+.flaticon-cogwheel:before { content: "\f10c"; }
+.flaticon-music-teacher:before { content: "\f10d"; }
+.flaticon-speech-bubble:before { content: "\f10e"; }
+.flaticon-youtube:before { content: "\f10f"; }
+.flaticon-user:before { content: "\f110"; }
+.flaticon-profile:before { content: "\f111"; }
+.flaticon-share:before { content: "\f112"; }
+.flaticon-users:before { content: "\f113"; }
+.flaticon-alarm:before { content: "\f114"; }
+.flaticon-shopping-cart:before { content: "\f115"; }
+.flaticon-star:before { content: "\f116"; }
+.flaticon-people-1:before { content: "\f117"; }
+.flaticon-people:before { content: "\f118"; }
+.flaticon-delete:before { content: "\f119"; }
+.flaticon-group:before { content: "\f11a"; }
+.flaticon-edit-document:before { content: "\f11b"; }
+.flaticon-more-details-circular-button:before { content: "\f11c"; }
+.flaticon-repairing-service:before { content: "\f11d"; }
+.flaticon-decorative-bookmark:before { content: "\f11e"; }
+.flaticon-shop:before { content: "\f11f"; }
+.flaticon-sharing-interface:before { content: "\f120"; }
+.flaticon-broken-heart:before { content: "\f121"; }
+.flaticon-eye:before { content: "\f122"; }
+.flaticon-pause-button:before { content: "\f123"; }
+.flaticon-round-delete-button:before { content: "\f124"; }
+.flaticon-tick-inside-circle:before { content: "\f125"; }
+.flaticon-verify-sign:before { content: "\f126"; }
+.flaticon-acceptance-circular-button:before { content: "\f127"; }
+.flaticon-world:before { content: "\f128"; }
+.flaticon-thumb-up:before { content: "\f129"; }
+.flaticon-three:before { content: "\f12a"; }
+.flaticon-interface-1:before { content: "\f12b"; }
+.flaticon-smile:before { content: "\f12c"; }
+.flaticon-voice-recorder-microphone:before { content: "\f12d"; }
+.flaticon-bull-horn-announcer:before { content: "\f12e"; }
+.flaticon-circular-shape-silhouette:before { content: "\f12f"; }
+.flaticon-comments:before { content: "\f130"; }
+.flaticon-thumbs-up:before { content: "\f131"; }
+.flaticon-social:before { content: "\f132"; }
+.flaticon-black-gallon:before { content: "\f133"; }
+.flaticon-interface:before { content: "\f134"; }
+.flaticon-web:before { content: "\f135"; }
+.flaticon-number-one:before { content: "\f136"; }
+.flaticon-hand-shake:before { content: "\f137"; }
+.flaticon-forbidden-sign:before { content: "\f138"; }
+.flaticon-headphones:before { content: "\f139"; }
+.flaticon-landscape-representing-photo-archive:before { content: "\f13a"; }

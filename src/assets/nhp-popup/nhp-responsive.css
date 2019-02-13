@@ -1,0 +1,692 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+#textbox textarea{
+	width: 97%;
+}
+
+.alert_notification {
+    width: 500px;
+}
+
+#multiBoxes {
+    left: -4px;
+    position: relative;
+}
+
+.wrap {
+    width: 460px;
+}
+
+#menu1 textarea, #menu2 textarea, #menu3 textarea, #menu4 textarea, #textbox textarea{
+	width: 95%;
+}
+
+#bigBox {
+    width: 510px;
+}
+
+a.first_icon {
+    margin-left: 20px;
+}
+
+.share_input_box #textbox textarea{
+    width: 97%;
+}
+
+.tab-content #AddEditMenu #textbox textarea{
+	width: 88%
+}
+
+.VPcrop {
+    right: 25px;
+}
+
+
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+.modal-dialog {
+    width: 320px;
+	margin: 10px auto;
+}
+
+#bigBox {
+    width: 248px;
+    height: 215px;
+
+}
+
+#textbox_EditMenu {
+    padding: 15px 0px 0 15px;
+}
+
+i.fa-window-close {
+    position: absolute;
+    right: 10px;
+    left: inherit;
+    bottom: 4px;
+}
+
+#menu1 {
+    width: 265px;
+    padding: 0px 5px;
+    left: 10px;
+    position: relative;
+}
+
+#menu2, #menu3 , #menu4{
+    margin-top: 5px;
+	width: 265px;
+    padding: 0px 5px;
+    left: 10px;
+    position: relative;
+}
+
+#menu2 img, #menu3 img {
+    width: 80px;
+    height: 80px;
+    margin: 0 0 0 2px;
+}
+
+#groupcrop {
+    float: left;
+}
+
+.share_input_box textarea {
+    width: 245px;
+    height: 182px;
+}
+
+.tab-content #AddEditMenu textarea {
+    width: 250px;
+	height: 180px
+}
+
+.share_left h4 {
+    font-size: 15px;
+    left: 17%;
+}
+
+.font-icon-area-bottom span {
+    font-size: 13px;
+}
+
+i.flaticon-profile {
+    font-size: 15px;
+}
+
+a.first_icon{
+	margin-left: 0px;
+}
+  
+.nav-pills>li>a {
+    position: relative;
+}
+
+
+.font-icon-area-bottom span {
+    margin-right: 0px;
+    margin-left: -5px;
+}
+
+.font-icon-area-bottom i {
+    margin-left: -10px;
+}
+
+.flaticon-profile:before, .flaticon-three:before, .flaticon-hand-shake:before, .flaticon-world:before {
+    font-size: 13px;
+}
+
+.MainSmileys {
+    bottom: 0px;
+}  
+
+
+.font-icon-area-right a, .font-icon-area-right2 a {
+    line-height: 30px;
+}
+
+
+.font-icon-area-right i, .font-icon-area-right2 i {
+    font-size: 22px;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-size: inherit;
+}
+.font-icon-area-bottom {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.font-icon-area-bottom a:hover {
+    padding: 5px 3px;
+	border-radius: 5px;
+
+}
+
+.nav>li>a:focus, .nav>li>a {
+    padding: 5px 3px;
+
+}
+
+.share_input_box {
+    padding: 0;
+    margin: 0;
+}
+
+#textbox {
+    position: relative;
+    padding: 10px 15px 0;
+}
+
+.colorPickBox {
+    padding: 0px;
+	float: none;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+
+.box_bit_angle {
+    height: 18px;
+    margin: 0px 0px;
+    width: 18px;
+    bottom: -4px;
+}
+
+i.fa-angle-left {
+    left: 6px;
+    top: 0px;
+}
+
+#multiBoxes {
+    left: 0px;
+    position: relative;
+	padding: 0px ;
+}
+
+.VPcrop {
+    width: 75px;
+    height: 75px;
+}
+
+.VPcrop:before {
+    top: 9px;
+    left: calc(50% - 9.5px);
+    font-size: 35px;
+}
+  
+.alert_notification {
+    margin-top: 10px;
+    height: 130px;
+    width: 300px;
+    position: relative;
+    right: 8px;
+} 
+
+
+body .player .description .title, html .player .description .title {
+    font-size: 14px;
+}
+
+body .player .description .sub-title, html .player .description .sub-title {
+    font-size: 9px;
+}
+
+body .player .album-art, html .player .album-art {
+    left: 0;
+    width: 13%;
+    height: 80%;
+    top: 9px;
+}
+
+body .player .description, html .player .description {
+    left: 15%;
+}
+
+body .player .play-button, html .player .play-button {
+    width: 35px;
+    height: 35px;
+    right: 43%;
+    top: -18px;
+}
+
+body .player .play-button, html .player .play-button {
+    line-height: 38px;
+    font-size: 22px;
+}
+
+body .player .time-indicator, html .player .time-indicator {
+    right: 43%;
+    top: 40%;
+    font-size: 10px;
+}
+
+body .player .play-button .mdi-pause, html .player .play-button .mdi-pause {
+    right: 9.5px;
+    top: 9.4px;
+    font-size: 17px;
+}
+
+.dropdown-menu {
+    width: 265px;
+    padding: 5px 0px 0px 0px;
+    right: 3px;
+    left: inherit;
+    top: 23px;
+}
+
+#myDropdown img {
+    width: 20px;
+    left: 0px;
+    position: relative;
+}
+
+.dropdown-menu li a {
+    padding: 6px 1px;
+    line-height: 18px;
+    margin: 0px 4px;
+}
+
+.smiles_bottom ul li a img{
+	width: auto!important;
+}
+
+.smiles_bottom ul li {
+    padding: 0;
+}
+
+.dropdown-menu li {
+    left: 10px;
+}
+
+.smiles_bottom {
+    padding: 0;
+
+}
+
+#IconMenu1 li a, #IconMenu3 li a, #IconMenu4 li a, #IconMenu5 li a, #IconMenu6 li a, #IconMenu7 li a, #IconMenu8 li a, #IconMenu9 li a {
+    padding: 6px 5px;
+}
+
+.smiles_bottom ul li a{
+    padding: 8px 9px;
+}
+
+.smiles_bottom ul li a.smile-btn {
+    top: 9px;
+    font-size: 11px;
+    left: 86px;
+    height: 19px;
+    width: 24px;
+}
+
+i.fa-window-close {
+    position: absolute;
+    right: 10px;
+    left: inherit;
+    bottom: 8px;
+}
+
+
+  
+}
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+.modal-dialog {
+    width: 480px;
+	margin: 10px auto;
+}
+
+.share_input_box #textbox textarea{
+    width: 90%;
+	height: 170px;
+}
+
+#menu1 textarea, #menu2 textarea, #menu3 textarea, #menu4 textarea, #textbox textarea {
+    width: 400px;
+	height: 87px;
+}
+
+body .player .play-button, html .player .play-button {
+    line-height: 55px;
+}
+
+
+.alert_notification {
+    width: 410px;
+}
+
+.wrap {
+    width: 380px;
+}
+
+.font-icon-area-bottom {
+    margin:0;
+}
+
+a.first_icon{
+	margin-left: 0px;
+}
+
+.font-icon-area-bottom span {
+    font-size: 16px;
+}
+
+.font-icon-area-bottom a:hover {
+    padding: 3px 0;
+}
+
+#textbox_EditMenu {
+	padding: 15px 0px 0 15px;
+}
+
+#bigBox {
+    width: 395px;
+    height: 215px;
+}
+
+
+.flaticon-profile:before, .flaticon-three:before, .flaticon-hand-shake:before, .flaticon-world:before {
+    font-size: 16px;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after{
+	margin-left: 15px;
+}
+
+.nav-pills>li>a {
+    padding: 7px 7px;
+    position: relative;
+}
+
+.nav-pills>li>a:hover{
+	padding: 7px 7px;
+}
+
+.font-icon-area-bottom {
+    padding: 0px 0px 0px 14px;
+	margin-top: 10px;
+}
+
+.font-icon-area-bottom span {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 0;
+    margin-right: 0px;
+}
+
+.font-icon-area-bottom a{
+	padding: 5px
+}
+
+ul#pills-tab li.active a {
+    left: 0px;
+}
+
+.font-icon-area-right i, .font-icon-area-right2 i{
+	left: 0px;
+}
+
+.nav-pills>li>a{
+	left: 0px;
+}
+
+i.fa-edit {
+	left: 18px;
+    padding: 0px 7px;
+}
+
+i.fa-upload{
+	left: 18px;
+    padding: 0px 7px;
+}
+
+i.flaticon-youtube{
+    left: 2px; 
+	padding: 0px 7px;
+}
+
+i.flaticon-landscape-representing-photo-archive{
+	left: 3px;
+    padding: 0px 7px;
+}
+
+i.flaticon-voice-recorder-microphone{
+	left: 2px;
+    padding: 0px 7px;
+}
+
+i.flaticon-smile{
+	position: relative;
+	left: 10px
+}
+
+.font-icon-area-right ul#pills-tab li.active i.flaticon-smile{
+	left: -5px
+}
+
+i.flaticon-profile{
+	font-size: 15px
+}
+
+.font-icon-area-right i, .font-icon-area-right2 i{
+	font-size: 22px
+}
+
+.font-icon-area-right a, .font-icon-area-right2 a {
+    line-height: 36px;
+    position: relative;
+}
+
+.VPcrop {
+    width: 80px;
+    height: 80px;
+    right: 10px;
+}
+
+.VPcrop:before {
+    top: 10px;
+}
+
+.font-icon-area-right {
+    right: 30px;
+}
+
+.modal-footer {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.MainSmileys {
+    bottom: 0;
+}
+
+.font-icon-area-right i, .font-icon-area-right2 i {
+
+}
+
+.font-icon-area-right ul#pills-tab li.active i.fa-upload{
+	left:5px
+}
+
+.font-icon-area-right ul#pills-tab li.active i.flaticon-landscape-representing-photo-archive{
+	left:-5px;
+	padding:0;
+}
+
+.font-icon-area-right ul#pills-tab li.active i.flaticon-youtube{
+	left:-5px;
+	padding:0;
+}
+
+.font-icon-area-right ul#pills-tab li.active i.flaticon-voice-recorder-microphone{
+	left:-5px;
+	padding:0;
+}
+
+.font-icon-area-right ul#pills-tab li.active {
+    position: relative;
+}
+
+.colorPickBox {
+    width: 17px;
+    height: 18px;
+    margin: 0 2px 0px 2px;
+}
+
+.box_bit_angle {
+    height: 20px;
+    width: 20px;
+    bottom: -1px;
+}
+
+#multiBoxes {
+    left: 10px;
+    position: relative;
+}
+
+.box_bit_angle {
+    margin: 0px;
+}
+
+#menu2 img, #menu3 img {
+    width: 75px;
+    height: 80px;
+	margin: 0px 5px 0 0px;
+}
+
+span.cross-btn:before {
+    font-size: 18px;
+}
+
+span.cross-btn {
+    top: -8px;
+    left: 5px;
+}
+
+
+body .player .description .title, html .player .description .title {
+    font-size: 15px;
+}
+
+body .player .description .sub-title, html .player .description .sub-title {
+    font-size: 9px;
+}
+
+body .player .play-button, html .player .play-button {
+    width: 40px;
+    height: 40px;
+    right: -7px;
+    top: -18px;
+    font-size: 26px;
+}
+.mdi-play:before {
+    bottom: 6px;
+    position: relative;
+}
+
+body .player .time-indicator, html .player .time-indicator {
+    position: absolute;
+    right: -1%;
+    top: 47%;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+body .player .album-art, html .player .album-art {
+    width: 17%;
+}
+
+body .player .description, html .player .description {
+    left: 21%;
+}
+
+body .player .play-button .mdi-pause, html .player .play-button .mdi-pause {
+    right: 9.5px;
+    top: 10.4px;
+    font-size: 20px;
+}
+
+body .player.playing .progress-bar, html .player.playing .progress-bar {
+    width: 380px;
+}
+
+body .player, html .player{
+	width: 350px
+}
+
+.dropdown-menu {
+    right: -7px;
+    top: 30px;
+}
+
+.font-icon-area-right ul#pills-tab li.active i.fa-edit {
+    top: 5px;
+    left: 5px;
+}
+
+.main_group {
+    margin-top: 10px;
+    width: 410px;
+}
+
+#groupcrop {
+    float: right;
+}
+
+
+#IconMenu1 li a, #IconMenu3 li a, #IconMenu4 li a, #IconMenu5 li a, #IconMenu6 li a, #IconMenu7 li a, #IconMenu8 li a, #IconMenu9 li a {
+    padding: 3px 5px;
+}
+
+.smiles_bottom ul li a {
+    padding: 8px 9px;
+}
+
+i.fa-window-close {
+    position: absolute;
+    left: 145px;
+    bottom: -13px;
+}
+
+i.fa-arrow-up {
+    position: relative;
+    left: 88px;
+    font-size: 16px;
+    top: 2px;
+}
+
+
+.font-icon-area-right ul#pills-tab li.active {
+    right: 0px;
+    position: relative;
+    padding: 6px;
+    left: 8px;
+}
+
+.smiles_bottom ul li a.smile-btn {
+    top: 9px;
+    font-size: 11px;
+    left: 86px;
+    height: 19px;
+    width: 24px;
+}
+
+
+}

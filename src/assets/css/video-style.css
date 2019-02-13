@@ -1,0 +1,62 @@
+.video-title{
+	background-color: #fff;
+	color: #000;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 0;
+	text-align: left
+}
+
+.video-title h4{
+	padding: 5px 0;
+	font-size: 13px;
+	font-weight: 600;
+	color: #3c3a3a;
+}
+
+.video-title p{
+	text-transform: initial;
+	font-size: 13px;
+	color: gray;
+	margin-top: 5px;
+}
+
+.video-title span{
+    font-size: 13px;
+    color: gray;
+    text-transform: initial;
+    position: relative;
+    bottom: 15px;
+}
+
+.video-title span:after{
+    content: '•';
+    left: 78px;
+    position: absolute;
+    bottom: -6px;
+    font-size: 20px;
+	
+}
+
+.video-title h5{
+	display: inline-block;
+    text-transform: initial;
+    color: gray;
+    font-size: 13px;
+    font-weight: normal;
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+}
+
+
+.event_img span{position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #fff;
+    font-weight: 500;
+    opacity: 0.9;
+    font-size: 12px;
+    padding: 0px 6px;
+    background: rgba(59, 59, 60, 0.8);
+    border-radius: 3px;}
